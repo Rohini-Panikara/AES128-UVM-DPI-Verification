@@ -1,0 +1,22 @@
+# Build outputs (rebuild with the commands in README.md)
+*.exe
+*.dll
+*.o
+*.so
+
+# QuestaSim working files
+uvm_tb/work/
+uvm_tb/transcript
+uvm_tb/*.wlf
+uvm_tb/*.ucdb
+uvm_tb/*.log
+uvm_tb/coverage_report.txt
+uvm_tb/covhtmlreport/
+uvm_tb/modelsim.ini
+uvm_tb/*.vstf
+
+# Editor / OS clutter
+.vscode/
+*.swp
+Thumbs.db
+.DS_Store

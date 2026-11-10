@@ -1,0 +1,233 @@
+COVERGROUP COVERAGE:
+-----------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal    Status               
+                                                                                              
+-----------------------------------------------------------------------------------------------
+ TYPE /aes_top_tb_sv_unit/aes_subscriber/cvg          100.00%        100    Covered              
+    covered/total bins:                                    59         59                      
+    missing/total bins:                                     0         59                      
+    % Hit:                                            100.00%        100                      
+    Coverpoint cvg::cp_key                            100.00%        100    Covered              
+        covered/total bins:                                 6          6                      
+        missing/total bins:                                 0          6                      
+        % Hit:                                        100.00%        100                      
+        bin all_zero                                       19          1    Covered              
+        bin all_one                                        35          1    Covered              
+        bin walking_one                                    32          1    Covered              
+        bin walking_zero                                   27          1    Covered              
+        bin repeat_byte                                    25          1    Covered              
+        bin random                                        307          1    Covered              
+    Coverpoint cvg::cp_pt                             100.00%        100    Covered              
+        covered/total bins:                                 6          6                      
+        missing/total bins:                                 0          6                      
+        % Hit:                                        100.00%        100                      
+        bin all_zero                                       22          1    Covered              
+        bin all_one                                        28          1    Covered              
+        bin walking_one                                    24          1    Covered              
+        bin walking_zero                                   21          1    Covered              
+        bin repeat_byte                                    25          1    Covered              
+        bin random                                        325          1    Covered              
+    Coverpoint cvg::cp_gap                            100.00%        100    Covered              
+        covered/total bins:                                 3          3                      
+        missing/total bins:                                 0          3                      
+        % Hit:                                        100.00%        100                      
+        bin back_to_back                                   76          1    Covered              
+        bin short_gap                                     181          1    Covered              
+        bin long_gap                                      188          1    Covered              
+    Coverpoint cvg::cp_key_msb                        100.00%        100    Covered              
+        covered/total bins:                                 4          4                      
+        missing/total bins:                                 0          4                      
+        % Hit:                                        100.00%        100                      
+        bin q0                                            143          1    Covered              
+        bin q1                                             86          1    Covered              
+        bin q2                                             81          1    Covered              
+        bin q3                                            135          1    Covered              
+    Coverpoint cvg::cp_pt_msb                         100.00%        100    Covered              
+        covered/total bins:                                 4          4                      
+        missing/total bins:                                 0          4                      
+        % Hit:                                        100.00%        100                      
+        bin q0                                            133          1    Covered              
+        bin q1                                             93          1    Covered              
+        bin q2                                             85          1    Covered              
+        bin q3                                            134          1    Covered              
+    Cross cvg::cp_key_x_pt                            100.00%        100    Covered              
+        covered/total bins:                                36         36                      
+        missing/total bins:                                 0         36                      
+        % Hit:                                        100.00%        100                      
+        bin <all_zero,all_zero>                             1          1    Covered              
+        bin <all_one,all_zero>                              6          1    Covered              
+        bin <walking_one,all_zero>                          4          1    Covered              
+        bin <walking_zero,all_zero>                         2          1    Covered              
+        bin <repeat_byte,all_zero>                          2          1    Covered              
+        bin <random,all_zero>                               7          1    Covered              
+        bin <all_zero,all_one>                              4          1    Covered              
+        bin <all_one,all_one>                               4          1    Covered              
+        bin <walking_one,all_one>                           4          1    Covered              
+        bin <walking_zero,all_one>                          1          1    Covered              
+        bin <repeat_byte,all_one>                           5          1    Covered              
+        bin <random,all_one>                               10          1    Covered              
+        bin <all_zero,walking_one>                          1          1    Covered              
+        bin <all_one,walking_one>                           3          1    Covered              
+        bin <walking_one,walking_one>                       3          1    Covered              
+        bin <walking_zero,walking_one>                      1          1    Covered              
+        bin <repeat_byte,walking_one>                       6          1    Covered              
+        bin <random,walking_one>                           10          1    Covered              
+        bin <all_zero,walking_zero>                         2          1    Covered              
+        bin <all_one,walking_zero>                          3          1    Covered              
+        bin <walking_one,walking_zero>                      2          1    Covered              
+        bin <walking_zero,walking_zero>                     2          1    Covered              
+        bin <repeat_byte,walking_zero>                      3          1    Covered              
+        bin <random,walking_zero>                           9          1    Covered              
+        bin <all_zero,repeat_byte>                          2          1    Covered              
+        bin <all_one,repeat_byte>                           3          1    Covered              
+        bin <walking_one,repeat_byte>                       5          1    Covered              
+        bin <walking_zero,repeat_byte>                      3          1    Covered              
+        bin <repeat_byte,repeat_byte>                       2          1    Covered              
+        bin <random,repeat_byte>                           10          1    Covered              
+        bin <all_zero,random>                               9          1    Covered              
+        bin <all_one,random>                               16          1    Covered              
+        bin <walking_one,random>                           14          1    Covered              
+        bin <walking_zero,random>                          18          1    Covered              
+        bin <repeat_byte,random>                            7          1    Covered              
+        bin <random,random>                               261          1    Covered              
+ Covergroup instance \/aes_top_tb_sv_unit::aes_subscriber::cvg  
+                                                      100.00%        100    Covered              
+    covered/total bins:                                    59         59                      
+    missing/total bins:                                     0         59                      
+    % Hit:                                            100.00%        100                      
+    Coverpoint cp_key                                 100.00%        100    Covered              
+        covered/total bins:                                 6          6                      
+        missing/total bins:                                 0          6                      
+        % Hit:                                        100.00%        100                      
+        bin all_zero                                       19          1    Covered              
+        bin all_one                                        35          1    Covered              
+        bin walking_one                                    32          1    Covered              
+        bin walking_zero                                   27          1    Covered              
+        bin repeat_byte                                    25          1    Covered              
+        bin random                                        307          1    Covered              
+    Coverpoint cp_pt                                  100.00%        100    Covered              
+        covered/total bins:                                 6          6                      
+        missing/total bins:                                 0          6                      
+        % Hit:                                        100.00%        100                      
+        bin all_zero                                       22          1    Covered              
+        bin all_one                                        28          1    Covered              
+        bin walking_one                                    24          1    Covered              
+        bin walking_zero                                   21          1    Covered              
+        bin repeat_byte                                    25          1    Covered              
+        bin random                                        325          1    Covered              
+    Coverpoint cp_gap                                 100.00%        100    Covered              
+        covered/total bins:                                 3          3                      
+        missing/total bins:                                 0          3                      
+        % Hit:                                        100.00%        100                      
+        bin back_to_back                                   76          1    Covered              
+        bin short_gap                                     181          1    Covered              
+        bin long_gap                                      188          1    Covered              
+    Coverpoint cp_key_msb                             100.00%        100    Covered              
+        covered/total bins:                                 4          4                      
+        missing/total bins:                                 0          4                      
+        % Hit:                                        100.00%        100                      
+        bin q0                                            143          1    Covered              
+        bin q1                                             86          1    Covered              
+        bin q2                                             81          1    Covered              
+        bin q3                                            135          1    Covered              
+    Coverpoint cp_pt_msb                              100.00%        100    Covered              
+        covered/total bins:                                 4          4                      
+        missing/total bins:                                 0          4                      
+        % Hit:                                        100.00%        100                      
+        bin q0                                            133          1    Covered              
+        bin q1                                             93          1    Covered              
+        bin q2                                             85          1    Covered              
+        bin q3                                            134          1    Covered              
+    Cross cp_key_x_pt                                 100.00%        100    Covered              
+        covered/total bins:                                36         36                      
+        missing/total bins:                                 0         36                      
+        % Hit:                                        100.00%        100                      
+        bin <all_zero,all_zero>                             1          1    Covered              
+        bin <all_one,all_zero>                              6          1    Covered              
+        bin <walking_one,all_zero>                          4          1    Covered              
+        bin <walking_zero,all_zero>                         2          1    Covered              
+        bin <repeat_byte,all_zero>                          2          1    Covered              
+        bin <random,all_zero>                               7          1    Covered              
+        bin <all_zero,all_one>                              4          1    Covered              
+        bin <all_one,all_one>                               4          1    Covered              
+        bin <walking_one,all_one>                           4          1    Covered              
+        bin <walking_zero,all_one>                          1          1    Covered              
+        bin <repeat_byte,all_one>                           5          1    Covered              
+        bin <random,all_one>                               10          1    Covered              
+        bin <all_zero,walking_one>                          1          1    Covered              
+        bin <all_one,walking_one>                           3          1    Covered              
+        bin <walking_one,walking_one>                       3          1    Covered              
+        bin <walking_zero,walking_one>                      1          1    Covered              
+        bin <repeat_byte,walking_one>                       6          1    Covered              
+        bin <random,walking_one>                           10          1    Covered              
+        bin <all_zero,walking_zero>                         2          1    Covered              
+        bin <all_one,walking_zero>                          3          1    Covered              
+        bin <walking_one,walking_zero>                      2          1    Covered              
+        bin <walking_zero,walking_zero>                     2          1    Covered              
+        bin <repeat_byte,walking_zero>                      3          1    Covered              
+        bin <random,walking_zero>                           9          1    Covered              
+        bin <all_zero,repeat_byte>                          2          1    Covered              
+        bin <all_one,repeat_byte>                           3          1    Covered              
+        bin <walking_one,repeat_byte>                       5          1    Covered              
+        bin <walking_zero,repeat_byte>                      3          1    Covered              
+        bin <repeat_byte,repeat_byte>                       2          1    Covered              
+        bin <random,repeat_byte>                           10          1    Covered              
+        bin <all_zero,random>                               9          1    Covered              
+        bin <all_one,random>                               16          1    Covered              
+        bin <walking_one,random>                           14          1    Covered              
+        bin <walking_zero,random>                          18          1    Covered              
+        bin <repeat_byte,random>                            7          1    Covered              
+        bin <random,random>                               261          1    Covered              
+
+TOTAL COVERGROUP COVERAGE: 100.00%  COVERGROUP TYPES: 1
+
+ASSERTION RESULTS:
+--------------------------------------------------------------------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass     Vacuous    Disable    Attempt     Active Peak Active ATV
+                                                  Count        Count    Count      Count      Count       Count  Count          
+--------------------------------------------------------------------------------------------------------------------------------
+/top/dut/u_sva/A_RESET
+                     aes_assertion_module.sv(107)
+                                                        0          3      14139          0      14142          0           2 off
+/top/dut/u_sva/A_START_PULSE
+                     aes_assertion_module.sv(108)
+                                                        0        445      13695          2      14142          0           1 off
+/top/dut/u_sva/A_START_IDLE
+                     aes_assertion_module.sv(109)
+                                                        0        445      13695          2      14142          0           1 off
+/top/dut/u_sva/A_INPUTS_STABLE
+                     aes_assertion_module.sv(110)
+                                                        0       9790       4350          2      14142          0           1 off
+/top/dut/u_sva/A_LATENCY
+                     aes_assertion_module.sv(111)
+                                                        0        445      13695          2      14142          0           1 off
+/top/dut/u_sva/A_DONE_PULSE
+                     aes_assertion_module.sv(112)
+                                                        0        445      13695          2      14142          0           1 off
+/top/dut/u_sva/A_NO_X
+                     aes_assertion_module.sv(113)
+                                                        0        445      13695          2      14142          0           1 off
+/top/dut/u_sva/A_ROUND_TRIP
+                     aes_assertion_module.sv(114)
+                                                        0        445      13695          2      14142          0           1 off
+/top/dut/u_sva/A_START_TO_ENC
+                     aes_assertion_module.sv(115)
+                                                        0        445      13695          2      14142          0           1 off
+/top/dut/u_sva/A_ENC_TO_DEC
+                     aes_assertion_module.sv(116)
+                                                        0        445      13695          2      14142          0           1 off
+/top/dut/u_sva/A_DEC_TO_DONE
+                     aes_assertion_module.sv(117)
+                                                        0        445      13695          2      14142          0           1 off
+/top/dut/u_sva/A_DONE_TO_IDLE
+                     aes_assertion_module.sv(118)
+                                                        0        445      13695          2      14142          0           1 off
+/top/dut/u_sva/A_CNT_RANGE
+                     aes_assertion_module.sv(119)
+                                                        0       9790       4350          2      14142          0           1 off
+/top/dut/u_sva/A_CT_BEFORE_DEC
+                     aes_assertion_module.sv(120)
+                                                        0       4450       9690          2      14142          0           1 off
+/top/dut/u_sva/A_BUSY
+                     aes_assertion_module.sv(121)
+                                                        0      14140          0          2      14142          0           1 off
